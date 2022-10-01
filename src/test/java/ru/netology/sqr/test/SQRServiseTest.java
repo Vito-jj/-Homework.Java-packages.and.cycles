@@ -1,16 +1,20 @@
 package ru.netology.sqr.test;
 
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
+import ru.netology.sqr.SQRService;
 
 public class SQRServiseTest {
 
-    @ParameterizedTest
-    @CsvFileSource({
-            "200,300"
-    })
+    @Test
+    public void testFirstNumberRange() {
+        SQRService service = new SQRService();
 
-    public void testFirstNumberRange(int x, int y) {
+        int expected = 15;
+        int actual = service.calcSQRt(200, 300);
 
+        Assertions.assertEquals(expected, actual);
     }
 }

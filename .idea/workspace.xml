@@ -46,7 +46,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SQRServiseTest.testFirstNumberRange">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Homework-packages.and.cycles" />
@@ -54,8 +54,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SQRServiseTest.testFirstNumberRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Homework-packages.and.cycles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.sqr.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology.sqr.test" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.sqr.test.SQRServiseTest" />
+      <option name="METHOD_NAME" value="testFirstNumberRange" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SQRServiseTest.testFirstNumberRange" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -69,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1664441414064</updated>
       <workItem from="1664441418608" duration="14885000" />
-      <workItem from="1664562161733" duration="1090000" />
+      <workItem from="1664562161733" duration="4866000" />
+      <workItem from="1664610376664" duration="2774000" />
     </task>
     <servers />
   </component>

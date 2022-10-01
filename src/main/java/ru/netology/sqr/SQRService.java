@@ -3,12 +3,13 @@ package ru.netology.sqr;
 public class SQRService {
 
     public int calcSQRt(int x, int y) {
-        int i;
-        for (i = 10; i <= 99; i++) {
+        int rezult = 0;
+        for (int i = 10; i < 100; i++) {
             if ((i * i >= x) & (i * i <= y)) {
-                return i;
+                rezult = i;
+                return rezult;
             }
         }
-        return i;
+        return rezult;
     }
 }
